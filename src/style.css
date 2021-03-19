@@ -4,14 +4,16 @@ body {
 
 a {
   text-decoration: none;
+  color: #eb6e4b;
 }
 
 a:hover {
   text-decoration: underline;
+  color: #eb6e4b;
 }
 
 h1 {
-  color: #878787;
+  color: #000000;
   font-size: 24px;
   font-weight: 100;
   line-height: 28px;
@@ -34,6 +36,10 @@ li {
 
 li:first-letter {
   text-transform: capitalize;
+}
+
+.button {
+  background-color: #000000;
 }
 
 .weather-app-wrapper {
@@ -84,7 +90,7 @@ li:first-letter {
 }
 
 .weather-forecast h3 {
-  color: rgb(186, 186, 186);
+  color: rgb(153, 153, 153);
   font-size: 14px;
   font-weight: 400;
   text-align: center;
